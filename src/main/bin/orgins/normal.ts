@@ -24,10 +24,7 @@ export default class Normal extends Orginal{
     }
 
     //根据分类和页数获取，视频列表
-    async getClassList(listName:string,page:number,orgins:Array<{name:string,url:string}> = [{
-        "name":"360",
-        "url":"https://360zy.com/api.php/provide/vod/from/360m3u8/at/json"
-    }]):Promise<videoType[]>{
+    async getClassList(listName:string,page:number,orgins:Array<{name:string,url:string}> = this.orgins):Promise<videoType[]>{
       return new Array<videoType>;
     }
 }
