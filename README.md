@@ -1,5 +1,5 @@
 # VideoFun
-> 本项目是一款集齐推荐、搜索、播放三大功能的视频软件， 并且是仅供个人学习的开源前端项目，项目所有展仅供学习目的，如果觉得写得不够好可以clone下去而开
+> 本项目是一款集齐推荐、搜索、播放三大功能的视频软件， 并且是仅供个人学习的开源前端项目，项目仅供学习目的，如果觉得写得不够好可以clone下去而开
 
 本前端项目使用的技术栈
 - [Electron](https://www.electronjs.org/zh/) ([Electron-vite](https://cn.electron-vite.org/))
