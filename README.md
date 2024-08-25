@@ -12,6 +12,10 @@
 **tips:本项目无后端，是纯前端的electron项目**
 
 ## 运行及编译
+安装依赖
+```bash
+npm i
+```
 运行
 ```bash
 npm run dev
@@ -31,7 +35,7 @@ npm run build && npm run build:win
 ![历史页](./images/history-page.png)
 
 ## 源编写说明
-> 本项目编写时采用了影视资源采集网，作为后端接口，但采集网的接口仅用于测试，并不提供频繁搜索和获取资源，因此本项目开园后不提供自带的源，需要后续二次开发中根据资源采集网的采集规则，自行搭建后端接口采集接口
+> 本项目编写时采用了影视资源采集网，作为后端接口，但采集网的接口仅用于测试，并不提供频繁搜索和获取资源，因此本项目开源后不提供自带的源，需要后续二次开发中根据资源采集网的采集规则，自行搭建后端接口采集接口
 
 源头文件编写：[normal.ts](https://github.com/Star-Vk/VideoFun-public/blob/main/src/main/bin/orgins/normal.ts#L5)
 
@@ -91,3 +95,7 @@ async search(keyword:string,orgins:Array<{name:string,url:string}> = this.orgins
 async getClassList(listName:string,page:number,orgins:Array<{name:string,url:string}> = this.orgins):Promise<videoType[]>
 ```
 返回值与getRecommendation一致
+
+## 其他
+
+历史文件没有使用sqlite有待完善，目前用的json保存
