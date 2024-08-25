@@ -37,7 +37,7 @@ npm run build && npm run build:win
 ## 源编写说明
 > 本项目编写时采用了影视资源采集网，作为后端接口，但采集网的接口仅用于测试，并不提供频繁搜索和获取资源，因此本项目开源后不提供自带的源，需要后续二次开发中根据资源采集网的采集规则，自行搭建后端接口采集接口
 
-源头文件编写：[normal.ts](https://github.com/Star-Vk/VideoFun-public/blob/main/src/main/bin/orgins/normal.ts#L5)
+源文件编写：[normal.ts](https://github.com/Star-Vk/VideoFun-public/blob/main/src/main/bin/orgins/normal.ts#L5)
 
 编写一个类，并且继承抽象类Orginal
 
